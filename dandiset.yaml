@@ -2,15 +2,18 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001261
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: NINDS and NIMH Intramural Research Programs
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Desai, Niraj (2024) BLA-projecting NBM/SI neurons in mouse and macaque (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001261/draft
+citation: Desai, Niraj; Luo, Feng; Jiang, Li; Watkins, Gabrielle; Talmage, David;
+  Role, Lorna (2024) BLA-projecting NBM/SI neurons in mouse and macaque (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001261/draft
 contributor:
 - affiliation: []
   email: niraj.s.desai@gmail.com
@@ -19,20 +22,54 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- email: feng.luo@nih.gov
+  includeInCitation: true
+  name: Luo, Feng
+  schemaKey: Person
+- email: li.jiang2@nih.gov
+  includeInCitation: true
+  name: Jiang, Li
+  schemaKey: Person
+- email: gabrielle.watkins@nih.gov
+  includeInCitation: true
+  name: Watkins, Gabrielle
+  schemaKey: Person
+- email: david.talmage@nih.gov
+  includeInCitation: true
+  name: Talmage, David
+  schemaKey: Person
+- email: lorna.role@nih.gov
+  includeInCitation: true
+  name: Role, Lorna
+  schemaKey: Person
 dateCreated: '2024-11-24T18:49:33.627019+00:00'
 description: 'These are the physiology data for the paper: Luo et al., "Comparative
   physiology and morphology of BLA-projecting NBM/SI cholinergic neurons in mouse
   and macaque", J. Comp. Neurol. 532:e70001 (2024). PMID: 39576005 PMCID: PMC11583843
   DOI: 10.1002/cne.70001'
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: NINDS Animal Use and Care Committee 1531
+  schemaKey: EthicsApproval
 id: DANDI:001261/draft
 identifier: DANDI:001261
+keywords:
+- basal forebrain, cholinergic, mouse, nonhuman primate, patch clamp
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001261/versions/draft/assets/
 name: BLA-projecting NBM/SI neurons in mouse and macaque
+protocol:
+- https://research.ninds.nih.gov/researchers/ninds-core-facilities-and-research-resources
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget:
+- This study compares the physiology of an identified class of neurons (BLA-projecting
+  cholinergic neurons of the NBM/SI) in rodents and primates.
 url: https://dandiarchive.org/dandiset/001261/draft
 version: draft
+wasGeneratedBy: []
