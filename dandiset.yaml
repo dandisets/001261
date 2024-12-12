@@ -8,9 +8,30 @@ access:
   status: dandi:OpenAccess
 acknowledgement: NINDS and NIMH Intramural Research Programs
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1488550744
+  numberOfFiles: 146
+  numberOfSubjects: 37
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+    name: Macaca mulatta - Rhesus monkey
+    schemaKey: SpeciesType
+  variableMeasured:
+  - CurrentClampStimulusSeries
+  - CurrentClampSeries
 citation: Desai, Niraj; Luo, Feng; Jiang, Li; Watkins, Gabrielle; Talmage, David;
   Role, Lorna (2024) BLA-projecting NBM/SI neurons in mouse and macaque (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001261/draft
